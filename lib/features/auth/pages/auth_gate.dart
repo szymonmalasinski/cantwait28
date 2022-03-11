@@ -19,7 +19,6 @@ class AuthGate extends StatelessWidget {
             ],
           );
         }
-
         //Render you application if authenticated
         return const HomePage();
       },
